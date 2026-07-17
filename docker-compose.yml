@@ -69,7 +69,12 @@ networks:
 
 volumes:
   mongodb_data:
+    driver: local
   redis_data:
+    driver: local
   backend_temp:
+    driver: local
   backend_cache:
+    driver: local
   backend_logs:
+    driver: local
